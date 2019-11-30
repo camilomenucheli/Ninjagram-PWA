@@ -1,0 +1,108 @@
+.new-account-container {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  background: url(../../assets/fundo.png) no-repeat center fixed;
+  background-color: #54c780;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.new-account-container .center-content {
+  width: 100%;
+  max-width: 360px;
+  padding: 30px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.new-account-container .center-content .logo-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.new-account-container .center-content .logo-container img {
+  width: 280px;
+  height: 140px;
+}
+
+.new-account-container .center-content .form-content {
+  width: 100%;
+}
+
+.new-account-container .center-content .form-content .new-account-form {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.new-account-container .center-content .form-content .new-account-form input {
+  font-size: 18px;
+  width: 100%;
+  height: 35px;
+  border-radius: 24px;
+  border: none;
+  box-sizing: border-box;
+  padding: 0 20px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.new-account-container .center-content .form-content .new-account-form .login-warn {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff979;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.new-account-container .center-content .form-content .new-account-form button {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #5357a9;
+  width: 120px;
+  height: 35px;
+  border-radius: 24px;
+  border: none;
+  margin: 20px auto;
+  cursor: pointer;
+  outline: none;
+}
+
+.new-account-container .center-content .form-content .new-account-form button:hover {
+  opacity: 0.8;
+}
+
+.new-account-container .center-content .form-content .new-account-form button:active {
+  width: 125px;
+}
+
+.new-account-container .center-content .navigation-options {
+  color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.new-account-container .center-content .navigation-options p a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}

@@ -1,0 +1,141 @@
+.profile-container {
+  background-color: #ddd;
+}
+
+.profile-container .content-center {
+  background-color: #fafafa;
+  width: 100%;
+  max-width: 720px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.profile-container .content-center .profile-header {
+  font-family: 'Roboto', sans-serif;
+  background: #fafafa;
+  width: 100%;
+  max-width: 720px;
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.profile-container .content-center .profile-header .profile-owner {
+  font-size: 28px;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.profile-container .content-center .profile-header .user-info {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.profile-container .content-center .profile-header .user-info .avatar-container {
+  width: 30%;
+  padding: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-container .content-center .profile-header .user-info .avatar-container img {
+  width: 150px;
+  height: 150px;
+  border-radius: 120px;
+}
+
+.profile-container .content-center .profile-header .user-info .counter-div {
+  width: 70%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.profile-container .content-center .profile-header .user-info .counter-div .counter {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 1px;
+}
+
+.profile-container .content-center .profile-header .user-info .counter-div .description {
+  font-size: 14px;
+  color: #666;
+  margin-top: 1px;
+}
+
+.profile-container .content-center .profile-header .bio-counter {
+  width: 90%;
+  display: block;
+  margin-left: 10%;
+}
+
+.profile-container .content-center .buttons-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.profile-container .content-center .buttons-container button {
+  font-weight: bold;
+  color: #fafafa;
+  height: 35px;
+  border-radius: 8px;
+  border: none;
+  margin: 0 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.profile-container .content-center .buttons-container button:hover {
+  opacity: 0.8;
+}
+
+.profile-container .content-center .buttons-container #edit-button {
+  background: #354463;
+  width: 60%;
+}
+
+.profile-container .content-center .buttons-container #edit-button:active {
+  width: 62%;
+}
+
+.profile-container .content-center .buttons-container #logout-button {
+  background: #ac2f2f;
+  width: 20%;
+}
+
+.profile-container .content-center .buttons-container #logout-button:active {
+  width: 22%;
+}
+
+.profile-container .content-center .buttons-container #follow-button {
+  color: #354463;
+  background: transparent;
+  border: 1px solid #354463;
+  width: 80%;
+}
+
+.profile-container .content-center .buttons-container #follow-button:active {
+  width: 82%;
+}
+
+.profile-container .content-center .buttons-container #following-button {
+  background: #354463;
+  width: 80%;
+}
+
+.profile-container .content-center .buttons-container #following-button:active {
+  width: 82%;
+}

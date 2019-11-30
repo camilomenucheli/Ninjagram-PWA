@@ -1,0 +1,14 @@
+name: Gitleaks
+
+on: [push]
+
+jobs:
+  analyze:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: gitleaks-action
+      uses: eshork/gitleaks-action@v1.0.0
+

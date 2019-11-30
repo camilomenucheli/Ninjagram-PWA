@@ -1,0 +1,76 @@
+.newpost-container {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  background: url(../../assets/fundo.png) no-repeat center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.newpost-container .center-content {
+  width: 100%;
+  height: 100%;
+  max-width: 720px;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.newpost-container .center-content .newpost-form {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  margin: 30px auto;
+  border-radius: 24px;
+  padding: 30px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.newpost-container .center-content .newpost-form #description-input {
+  background-color: #fff;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  padding: 15px;
+  border: 1px dashed #666;
+  outline: none;
+}
+
+.newpost-container .center-content .newpost-form button {
+  display: block;
+  margin: 10px auto;
+  color: #fff;
+  background-color: #5357a9;
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+
+.newpost-container .center-content .newpost-form button:hover {
+  opacity: 0.7;
+}
+
+.newpost-container .center-content .newpost-form button:active {
+  width: 102px;
+}
+
+.newpost-container .center-content .newpost-form button[disabled] {
+  background-color: #aaa;
+  cursor: default;
+}
+
+.newpost-form .newpost-warn {
+  color: #f00;
+}

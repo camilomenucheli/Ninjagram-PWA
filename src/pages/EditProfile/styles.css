@@ -1,0 +1,132 @@
+.edit-container {
+  background-color: #ddd;
+  height: 100%;
+}
+
+.edit-container .content-center {
+  background-color: #fafafa;
+  width: 100%;
+  max-width: 720px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.edit-container .content-center .edit-header {
+  font-family: 'Roboto', sans-serif;
+  background: #fafafa;
+  width: 100%;
+  max-width: 720px;
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.edit-container .content-center .edit-header .edit-owner {
+  font-size: 28px;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.edit-container .content-center .edit-header .user-info {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.edit-container .content-center .edit-header .user-info .edit-img-container {
+  width: 30%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-container .content-center .edit-header .user-info .edit-img-container .file-input {
+  width: 150px;
+  height: 150px;
+  border-radius: 120px;
+}
+
+.edit-container .content-center .edit-header .user-info .counter-div {
+  width: 50%;
+  padding: 10px;
+  display: block;
+}
+
+.edit-container .content-center .edit-header .user-info .counter-div .counter {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 1px;
+}
+
+.edit-container .content-center .edit-header .user-info .counter-div .description {
+  font-size: 14px;
+  color: #666;
+  margin-top: 1px;
+}
+
+.edit-container .content-center .buttons-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.edit-container .content-center .buttons-container button {
+  font-weight: bold;
+  color: #fafafa;
+  height: 35px;
+  border-radius: 8px;
+  border: none;
+  margin: 0 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.edit-container .content-center .buttons-container button:hover {
+  opacity: 0.8;
+}
+
+.edit-container .content-center .buttons-container #edit-button {
+  background: #354463;
+  width: 60%;
+}
+
+.edit-container .content-center .buttons-container #edit-button:active {
+  width: 62%;
+}
+
+.edit-container .content-center .buttons-container #logout-button {
+  background: #ac2f2f;
+  width: 20%;
+}
+
+.edit-container .content-center .buttons-container #logout-button:active {
+  width: 22%;
+}
+
+.edit-container .content-center .buttons-container #follow-button {
+  color: #354463;
+  background: transparent;
+  border: 1px solid #354463;
+  width: 80%;
+}
+
+.edit-container .content-center .buttons-container #follow-button:active {
+  width: 82%;
+}
+
+.edit-container .content-center .buttons-container #following-button {
+  background: #354463;
+  width: 80%;
+}
+
+.edit-container .content-center .buttons-container #following-button:active {
+  width: 82%;
+}
